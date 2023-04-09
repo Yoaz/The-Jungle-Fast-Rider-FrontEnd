@@ -16,7 +16,7 @@
 ✔ Website send POST request based on user input and retrieve information once valid </br>
 ✔ Website allows simulate payment for the service with crypto via MetaMask Browser Wallet </br>
 
-### Instruction
+### Instructions
 
 - Run `npm install` to install all related dependecies.
 - Run `npm start` to start live service and explore website app functionallity and visibility.
