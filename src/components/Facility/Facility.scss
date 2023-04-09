@@ -1,0 +1,16 @@
+@use "../../variables.modules" as *;
+
+.facility {
+  background-color: $lightBlack;
+}
+
+// Filter color SVG assets
+.filterDarkGrey {
+  filter: invert(44%) sepia(1%) saturate(0%) hue-rotate(360deg) brightness(86%)
+    contrast(83%);
+}
+
+.btn {
+  background-color: $darkGray;
+  color: $lightBlack;
+}

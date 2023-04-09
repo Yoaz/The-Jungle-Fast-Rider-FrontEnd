@@ -1,0 +1,17 @@
+@use "../../variables.modules" as *;
+
+.error {
+  color: $red;
+}
+
+.button {
+  color: $white;
+  background-color: $lightBlack;
+}
+
+//Prevent cursor when submit button is inactive
+//in one of logic scenarios
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
